@@ -1,0 +1,59 @@
+.LandingPage{
+  border:1px solid;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate3d(-50%,-50%,0);
+  border-radius: 2%;
+  height:450px;
+  text-align: center;
+}
+.LandingPage .active {
+  color:red;
+}
+.LandingPage .custom-count {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+.LandingPage .custom-count  li{
+  float: left;
+  width:45px;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 0.2em;
+}
+.custom-li {
+  height: 80px
+}
+.Landing-container {
+  background-color: #93b5cf;
+  width:100vw;
+  height: 100vh;
+  font-size: 25px;
+}
+.custom-Card {
+  cursor: default;
+  min-width:350px;
+  font-size: 20px;
+  border-radius: 2%;
+}
+.custom-li {
+  cursor: pointer;
+  height:100px;
+}
+.inputNumber {
+  font-size: 20px;
+  height: 40px;
+  vertical-align: text-bottom;
+}
+.LandingPage .ant-card-head-title {
+  font-size: 20px;
+}
+.LandingPage button {
+  font-size: 20px;
+}

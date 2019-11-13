@@ -1,0 +1,24 @@
+
+.RM h1 {
+  text-align: center;
+  margin-left: -2em;
+  font-size: 30px;
+}
+
+.RM .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+  color:white;
+  text-align: center;
+  font-size: 20px;
+}
+.RM .sidebar {
+  user-select:none;
+}
+.RM .sidebar .a{
+  font-size: 30px;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: white;
+}
