@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.24.3",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "immer": "^4.0.2",
     "lodash": "^4.17.15",
     "prop-types": "^15.7.2",
